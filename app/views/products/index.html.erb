@@ -1,0 +1,228 @@
+						
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Food shop Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.useso.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+				<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
+
+</head>
+<body>
+	<% if notice %>
+	<p id="notice"><%= notice %></p>
+	<% end %>
+	<!--header-->
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<h1><a href="http://localhost:3000/">My Alcohol-Free Shop</a></h1>
+			</div>
+			<div class="header-top">
+				<div class="header-top-in">
+					<ul class="header-grid">
+						<% if user_signed_in? == false %>
+
+						<li> <%= link_to "Sign up", new_user_registration_path %> <label>/</label></li>
+						<li>  <%= link_to "Login", new_user_session_path  %> </li>	
+						<% else %>	
+						<li> Welcome,<%= current_user.email %> </li>
+						<li><%= link_to 'Edit profile', edit_user_registration_path %><label>/</label></li>
+						<li><%= link_to "Logout", destroy_user_session_path, method: :delete %> <%= link_to 'My Order', orders_path %></li>
+						<% end %>	
+						
+						<% if session[:cart_id]!=nil%>
+						<li><%= link_to 'My Cart', cart_path(session[:cart_id])%></li>
+						<% end %>
+						
+					</ul>
+					
+				<div class="clearfix"> </div>
+				</div>
+				<ul class="grid-header">
+				 		
+						
+				</ul>
+				<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<div class="header-bottom">
+				<div class="top-nav">
+					<span class="menu"> </span>
+					<ul>
+						<li class="active" ><%= link_to 'Home', products_path%><label>- </label> </li>
+						<li><a href="location.html" > Locations</a><label>- </label></li>
+						<li><a href="specials.html">Specials </a><label>- </label></li>
+						<li><a href="404.html" > Order Online</a><label>- </label></li>
+						<li><a href="contact.html">Contacts</a></li>
+					</ul>
+					<!--script-->
+				<script>
+					$("span.menu").click(function(){
+						$(".top-nav ul").slideToggle(500, function(){
+						});
+					});
+			</script>
+				</div>
+					<div class="search">
+						
+							<%= form_tag(search_products_path, method: "get", id: "search") do %>
+								<%= text_field_tag(:query, 'Search Wine Here', autocomplete: 'off') %>
+								<input type="submit" value="">
+							<% end %>
+						
+						
+					</div>
+			<div class="clearfix"> </div>
+		</div>
+		<!---->
+        
+	<div class="banner">
+		<div class="banner-in">
+		<!---->
+		
+		<div class="wmuSlider example1">
+			   <div class="wmuSliderWrapper">
+				<article style="position: absolute; width: 100%; opacity: 0;"> 
+				   	<div class="banner-in">
+						<div class="banner-wrap">
+				   	      <h2>Enjoy this Moment </h2>
+						  <h5>Your life</h5>
+						  <p>For more <span>We can provide</span></p>		
+					  </div>		   		 
+				   	 </div>
+					 
+				 </article>
+			 <article style="position: absolute; width: 100%; opacity: 0;"> 
+				   	<div class="banner-inn">
+						<div class="banner-wrap">
+					  		<h2>My Willing My choice</h2>
+						  <h5>Alcohol free our health</h5>
+						  <p>For your family <span>For your health</span></p>
+				   		 </div>
+				   	 </div>
+					 
+			</article>
+			 <article style="position: absolute; width: 100%; opacity: 0;"> 
+				   	<div class="banner-innn">
+						
+				   	 </div>
+					 
+			</article>
+			</div>
+		</div>
+		<!---->
+		  <script src="js/jquery.wmuSlider.js"></script> 
+			  <script>
+       			$('.example1').wmuSlider({
+					 pagination : false,
+				});         
+   		     </script> 	
+		<!---->
+	</div>
+	</div>
+		</div>
+	</div>
+	<!---->
+	<div class="content">
+		<div class="container">
+		<div class="content-grid">
+			<div class="col-md-4 grid-food">
+				<div class="popular">
+				<h3>Popular Products</h3>
+				<p>We collect best alchhol free wine from the world</p>
+				<ul class="popular-in">
+					<% @products[0..3].each do |product| %>
+					<li><%= link_to (product_path(product.id)) do %>
+						<i></i> <%= product.title %></li>
+						<% end %>
+					<% end %>
+												
+				</ul>
+				</div>
+				<div class="popular phone">
+					<h3>Order online/phone</h3>
+					<p>Contact us if you have any problem</p>
+					<ul class="number">
+						<li><span><i> </i>(＋44) 07542413813</span ></li>
+						<li><a href="mailto:info@sitename.com"><i class="mail"> </i>gzwnpu@gmail.com </a></li>					
+					</ul>
+				</div>
+				
+			</div>
+			<!---->
+			<div class="col-md-8 food-grid">
+				<div class="cup">
+					<div id='main-input-area'>
+				      <%=  render partial: 'products_list', object: @productpage %>
+				    </div>
+				<!---->
+					
+				<!---->
+					
+					
+					</div>
+				</div>
+				<div>
+				  <%= will_paginate @productpage, renderer: BootstrapPagination::Rails %>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div>
+	
+</div>
+	<!---->
+	<div class="footer">
+		<div class="container">
+		<div class="col-md-8 footer-bottom ">
+		<h4>MyAlcohoFree Company</h4>
+		<p>Thanks for all our customers' support and accompany in our 10 years development.</p>
+		<p class="footer-grid">Copyright &copy; 2015. MyAlcoholFree All rights reserved.More Templates </p>
+
+		</div>
+			<div class="col-md-4 footer-bottom ">
+				<h4>Follow us</h4>
+				<ul class="social-icons">
+					<li><a href="#"><span> </span> </a></li>
+					<li class="tin"><a href="#"><span> </span></a></li>
+					<li class="linked"><a href="#"><span> </span> </a></li>
+				</ul>
+			</div>
+				<div class="clearfix"> </div>
+		</div>	
+	</div>
+	 <script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+</body>
+</html>

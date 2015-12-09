@@ -1,0 +1,2508 @@
+@charset "UTF-8";
+/*--
+
+--*/
+/* line 5, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+body {
+  background: #eaeaea;
+  font-family: 'Rokkitt', serif;
+}
+
+/* line 9, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/* line 16, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 20, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+h1, h2, h3, h4, h5, h6, label, p {
+  margin: 0;
+}
+
+/* line 23, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.header {
+  background: url("/assets/back-f4aec92e6d5fca142096f88eaa6ddc33c2dfa912e57180f3525da6c1389418a0.jpg") no-repeat center;
+  width: 100%;
+  min-height: 798px;
+  display: block;
+  background-size: cover;
+}
+
+/* line 30, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.header-in {
+  background: url("/assets/back-f4aec92e6d5fca142096f88eaa6ddc33c2dfa912e57180f3525da6c1389418a0.jpg") no-repeat center;
+  width: 100%;
+  min-height: 300px;
+  display: block;
+  background-size: cover;
+}
+
+/* line 37, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.logo h1 {
+  font-size: 3.5em;
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+}
+
+/* line 42, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.logo h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 46, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.logo {
+  padding-top: 3em;
+}
+
+/* line 49, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.header-top-in {
+  float: left;
+  width: 65%;
+}
+
+/* line 53, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.grid-header {
+  float: right;
+  padding-top: 1em;
+}
+
+/* line 57, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.header-grid {
+  float: left;
+  padding-top: 1em;
+}
+
+/* line 61, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.act {
+  width: 43%;
+  float: right;
+}
+
+/* line 65, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.header-grid li, .grid-header li {
+  color: #ffffff;
+  font-size: 1.4em;
+  display: inline-block;
+}
+
+/* line 70, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.header-grid li a, .grid-header li a {
+  text-decoration: none;
+  color: #7a7a7a;
+  font-size: 1.4em;
+}
+
+/* line 75, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.header-grid li a:hover, .grid-header li a:hover {
+  color: #aa381e;
+}
+
+/* line 78, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.header-grid li label, .grid-header li label {
+  color: #7a7a7a;
+  font-size: 1.2em;
+}
+
+/* line 82, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.header-top {
+  padding-top: 2em;
+}
+
+/* line 85, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+a.done {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4em;
+  background: #cb4324;
+  padding: 0.6em;
+  vertical-align: top;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+/* line 101, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+a.done:before, a.done:after {
+  content: "";
+  background: url("/assets/star-9f9f14dd1cdd4e089c2e307a9526cbca71b2829b6b49a8f4bd5a0a0c357e511a.png") no-repeat 0px;
+  width: 20px;
+  min-height: 20px;
+  display: inline-block;
+  margin-right: 1em;
+  vertical-align: sub;
+}
+
+/* line 110, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+a.done:after {
+  margin: 0 0em 0 1em;
+}
+
+/* line 113, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.top-nav {
+  float: left;
+  margin-top: 0.5em;
+}
+
+/* line 117, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.top-nav ul li {
+  display: inline-block;
+}
+
+/* line 120, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.top-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3em;
+  padding: 0em 1em;
+}
+
+/* line 126, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.top-nav ul li a:hover, .top-nav ul li.active a {
+  color: #aa381e;
+}
+
+/* line 129, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.top-nav ul li label {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+/*----*/
+/* line 134, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.top-nav span.menu:before {
+  content: url("/assets/menu-277b48f53aa0a7063b0fcdf0437f4cdecfeb0078c10095b83237d7a922bdf971.png") no-repeat 0px 0px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* line 139, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.top-nav span.menu {
+  display: none;
+}
+
+/*--responsive media-quries--*/
+@media (max-width: 768px) {
+  /* line 144, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .top-nav ul {
+    display: none;
+    position: absolute;
+    position: absolute;
+    width: 96.5%;
+    z-index: 9999;
+    left: 2%;
+    margin: 1em 0;
+    background: #aa381e;
+  }
+
+  /* line 154, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .top-nav span.menu {
+    display: block;
+    width: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    height: 30px;
+  }
+
+  /* line 162, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .top-nav ul li label {
+    display: none;
+  }
+
+  /* line 165, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .top-nav ul li, .top-nav ul li.active {
+    display: block;
+    float: none;
+    padding: 0.5em 0;
+    text-align: center;
+  }
+
+  /* line 171, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .top-nav ul li a, .top-nav ul li.active a {
+    color: #fff;
+    border: none;
+    padding: 0;
+    background: none;
+    margin: 0.3em 1em;
+  }
+
+  /* line 178, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .top-nav ul li a:hover {
+    color: #000;
+  }
+}
+/* line 182, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.search {
+  float: right;
+  position: relative;
+  width: 23%;
+  background: #f6f6f6;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+}
+
+/* line 193, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.header-bottom {
+  background: #35a22c;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  padding: 1em;
+  margin: 2em 0 0;
+}
+
+/* line 203, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.search input[type="text"] {
+  outline: none;
+  padding: 6px 15px;
+  background: none;
+  width: 79.33%;
+  border: none;
+  font-size: 1.2em;
+  color: #a9a7a7;
+}
+
+/* line 212, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.search input[type="submit"] {
+  width: 30px;
+  height: 36px;
+  background: url("/assets/img-sprite-28cb8ec5c5eeb5e4b59feb540858ed873223d87902e2d49d072d26d18a4c7f79.png") -45px -9px no-repeat;
+  padding: 0px 1px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  outline: none;
+  top: 0;
+  right: 2px;
+}
+
+/*----*/
+/* line 225, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.banner {
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -o-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  margin: 2em 0 0;
+  background: #fff;
+  padding: 1.5em;
+}
+
+/* line 235, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.banner-in {
+  background: url("/assets/banner-02ab3fbe23c88fba8426e3c959049510405aee6880f2d8fc51e5861b62eba99f.jpg") no-repeat center;
+  width: 100%;
+  min-height: 400px;
+  display: block;
+  background-size: cover;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -o-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+}
+
+/* line 248, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.banner-inn {
+  background: url("/assets/banner1-6e22722e0e567865e720599fd0b025d621d5310acff904cd66c0926da4fbb786.jpg") no-repeat center;
+  width: 100%;
+  min-height: 400px;
+  display: block;
+  background-size: cover;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -o-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+}
+
+/* line 261, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.banner-innn {
+  background: url("/assets/banner2-3f577e9aa8c46e3dde7a51fd5a68f922eb4078131c2c95b96ab4b14d637fc905.jpg") no-repeat center;
+  width: 100%;
+  min-height: 400px;
+  display: block;
+  background-size: cover;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -o-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+}
+
+/* Default Skin */
+/* line 275, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.wmuSlider {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 279, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.wmuSliderPagination {
+  display: none;
+}
+
+/* line 282, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.wmuGallery .wmuGalleryImage {
+  margin-bottom: 10px;
+}
+
+/* line 285, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.wmuSliderPrev, .wmuSliderNext {
+  position: absolute;
+  width: 37px;
+  height: 42px;
+  text-indent: -9999px;
+  background: url("/assets/img-sprite-28cb8ec5c5eeb5e4b59feb540858ed873223d87902e2d49d072d26d18a4c7f79.png") no-repeat;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* line 294, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.wmuSliderPrev {
+  background-position: -132px -10px;
+  right: 4.2em;
+  bottom: 0em;
+}
+
+/* line 299, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.wmuSliderNext {
+  background-position: -92px -10px;
+  right: 7em;
+  bottom: 0;
+}
+
+/* line 304, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.banner-wrap {
+  text-align: right;
+  padding: 6em 5em 4em 0;
+}
+
+/* line 309, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.banner-wrap h2 {
+  font-size: 4em;
+  font-family: 'Lobster Two', cursive;
+  color: #fff;
+}
+
+/* line 314, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.banner-wrap h5 {
+  font-size: 3em;
+  font-family: 'Lobster Two', cursive;
+  color: #fff;
+}
+
+/* line 319, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.banner-wrap p {
+  font-size: 1.4em;
+  color: #fff;
+}
+
+/* line 323, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.banner-wrap p span {
+  display: block;
+}
+
+/*----*/
+/* line 327, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.popular h3 {
+  font-size: 2em;
+  font-family: 'Lobster Two', cursive;
+  color: #aa381e;
+}
+
+/* line 332, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.popular p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #3e3e3e;
+  width: 80%;
+  padding-top: 0.4em;
+}
+
+/* line 339, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.popular-in {
+  padding-top: 2em;
+}
+
+/* line 342, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.popular-in li {
+  list-style: none;
+  border-bottom: 1px solid #BAB6B6;
+}
+
+/* line 346, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.popular-in li a {
+  color: #848484;
+  text-decoration: none;
+  padding: 0.7em 0;
+  display: block;
+  font-size: 1.3em;
+}
+
+/* line 353, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.popular-in li:nth-child(4) {
+  border-bottom: none;
+}
+
+/* line 356, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.popular-in li a:hover {
+  color: #aa381e;
+}
+
+/* line 359, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.popular-in li a i {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background: url("/assets/img-sprite-28cb8ec5c5eeb5e4b59feb540858ed873223d87902e2d49d072d26d18a4c7f79.png") no-repeat -184px -22px;
+  vertical-align: sub;
+  margin-right: 0.5em;
+}
+
+/* line 367, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.phone {
+  padding: 6em 0;
+}
+
+/*----*/
+/* line 371, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.number {
+  padding-top: 2em;
+}
+
+/* line 374, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.number li {
+  list-style: none;
+}
+
+/* line 377, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.number li a {
+  text-decoration: none;
+}
+
+/* line 380, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.number li span {
+  border-top: 1px solid #BAB6B6;
+}
+
+/* line 383, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.number li a, ul.number li span {
+  color: #2e8e26;
+  padding: 0.4em 0;
+  display: block;
+  border-bottom: 1px solid #BAB6B6;
+  font-size: 1.7em;
+}
+
+/* line 390, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.number li a:hover {
+  color: #aa381e;
+}
+
+/* line 393, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.number li i {
+  width: 30px;
+  height: 24px;
+  display: inline-block;
+  background: url("/assets/img-sprite-28cb8ec5c5eeb5e4b59feb540858ed873223d87902e2d49d072d26d18a4c7f79.png") no-repeat -220px -19px;
+  vertical-align: sub;
+  margin-right: 0.5em;
+}
+
+/* line 401, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.number li i.mail {
+  background-position: -267px -21px;
+}
+
+/* line 404, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.popular input[type="text"], .popular input[type="submit"] {
+  font-size: 1.2em;
+  width: 84%;
+  padding: 0.5em 1.5em;
+  margin: 0.5em 0;
+  background: #fff;
+  outline: none;
+  border: none;
+  color: #a9a7a7;
+  -webkit-appearance: none;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+}
+
+/* line 420, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.popular input[type="submit"] {
+  color: #fff;
+  background: #2e8e26;
+  padding: 0.4em 0.8em;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  width: 28%;
+  font-size: 1.3em;
+  font-family: 'Lobster Two', cursive;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  display: block;
+}
+
+/* line 439, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.popular input[type="submit"]:hover {
+  background: #aa381e;
+}
+
+/* line 442, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.popular form {
+  padding: 1em 0;
+}
+
+/*----*/
+/* line 446, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.cup-in {
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -o-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  background: #fff;
+  padding: 1.5em;
+  margin-right: 5%;
+  width: 30%;
+  float: left;
+  margin-bottom: 2em;
+}
+
+/* line 459, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.cup-in:nth-child(3), .cup-in:nth-child(6) {
+  margin-right: 0;
+}
+
+/* line 462, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.cup-in img {
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -o-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+}
+
+/* line 469, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.cup-in p {
+  color: #9a9a9a;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  padding: 0.8em 0;
+}
+
+/* line 475, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+span.dollar {
+  float: left;
+  font-size: 2em;
+  color: #aa381e;
+  font-family: 'Lobster Two', cursive;
+}
+
+/* line 481, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.details-in {
+  float: right;
+  margin-top: 0.5em;
+}
+
+/* line 485, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+a.details {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #fff;
+  background: #2e8e26;
+  padding: 0.4em 0.8em;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+}
+
+/* line 497, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+a.details:hover {
+  background: #aa381e;
+}
+
+/* line 500, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.amet h3, .amet-in h3 {
+  font-size: 2em;
+  font-family: 'Lobster Two', cursive;
+  color: #aa381e;
+}
+
+/* line 505, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.amet p, .amet-in p {
+  font-size: 1.5em;
+  color: #2e8e26;
+}
+
+/* line 509, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+p.para-in {
+  font-size: 1.2em;
+  color: #919191;
+}
+
+/* line 513, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.egg {
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -o-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  background: #fff;
+  padding: 1em;
+  margin: 1.5em 0;
+}
+
+/* line 523, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.egg img {
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -o-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+}
+
+/* line 530, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.now {
+  float: left;
+  color: #fff;
+  background: #6c6c6c;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -o-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  width: 65px;
+  height: 65px;
+  font-size: 1.3em;
+  padding: 7px 17px 0;
+}
+
+/* line 544, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.now span {
+  display: block;
+  border-bottom: 1px solid #fff;
+}
+
+/* line 548, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+p.sed {
+  float: right;
+  width: 75%;
+  font-size: 1.2em;
+  color: #919191;
+}
+
+/* line 554, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+p.sed span {
+  border-bottom: 1px solid #919191;
+}
+
+/* line 557, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.amet-grid {
+  padding: 0.8em 0;
+}
+
+/* line 560, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.grid-food {
+  padding: 0 4% 0 0;
+}
+
+/* line 563, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.food-grid {
+  padding: 0;
+}
+
+/* line 566, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.in-cup {
+  padding: 2em 0 0;
+}
+
+/*----*/
+/* line 570, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+p.vit {
+  float: left;
+  width: 70%;
+  color: #fff;
+  background: #6c6c6c;
+  font-size: 1.3em;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  padding: 0.7em 1em;
+}
+
+/* line 583, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+a.more {
+  float: left;
+  width: 30%;
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  background: #cc4324;
+  font-family: 'Lobster Two', cursive;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  padding: 0.5em 0;
+  text-align: center;
+}
+
+/* line 599, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.browse {
+  padding: 1em 0 2.3em;
+  position: relative;
+}
+
+/* line 603, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.amet {
+  padding: 0 1.5em 0 0;
+}
+
+/* line 606, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.amet-in {
+  padding: 0 0 0 1.5em;
+}
+
+/* line 609, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.content-sit {
+  padding: 1em 0;
+}
+
+/* line 612, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.content-grid {
+  padding-bottom: 4em;
+}
+
+/* line 615, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.arrow {
+  position: absolute;
+  top: 29%;
+  right: 28%;
+}
+
+/* line 620, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.browse:hover .arrow {
+  transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg);
+  -moz-transform: rotateY(360deg);
+  -o-transform: rotateY(360deg);
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+}
+
+/*--special--*/
+/* line 632, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.specials {
+  padding: 4em 0 6em;
+}
+
+/* line 635, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.special-bottom {
+  padding: 2em 0 0;
+}
+
+/* line 638, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.specials h2 {
+  font-size: 4em;
+  font-family: 'Lobster Two', cursive;
+  color: #aa381e;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+/* line 645, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.bottom-special {
+  background: url("/assets/s1-e1d21fb34ee1c14c61d9669ff8880cc0351642a2fe452846e023148e2c4aa92f.jpg") no-repeat center;
+  display: block;
+  padding: 6em 2em;
+  text-align: center;
+  margin-right: 3%;
+  width: 48.5%;
+  background-size: cover;
+}
+
+/* line 654, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.bottom-special-1 {
+  background: url("/assets/s2-58ffd54d503b1325b538fdb05508f4e7b25e993e85f026d1e0f124657de1ad7e.jpg") no-repeat center;
+  display: block;
+  padding: 6em 2em;
+  text-align: center;
+  width: 48.5%;
+  margin: 0;
+  background-size: cover;
+}
+
+/* line 663, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.bottom-special h5, .bottom-special-1 h5 {
+  font-size: 2em;
+  font-family: 'Lobster Two', cursive;
+}
+
+/* line 667, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.bottom-special h5 a, .bottom-special-1 h5 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 671, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.bottom-special p, .bottom-special-1 p {
+  font-size: 1.3em;
+  color: #fff;
+  line-height: 1.2em;
+  width: 90%;
+  margin: 0.5em auto 1em;
+}
+
+/* line 678, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.special-in h5 {
+  font-size: 1.5em;
+  font-family: 'Lobster Two', cursive;
+}
+
+/* line 682, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.special-in h5 a {
+  text-decoration: none;
+  color: #aa381e;
+  padding: 0.5em 0;
+  display: block;
+}
+
+/* line 688, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.special-in h5 a:hover {
+  color: #2e8e26;
+}
+
+/* line 691, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.special-in p {
+  font-size: 1.3em;
+  color: #3e3e3e;
+}
+
+/* line 695, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.special-top {
+  padding: 1em 0;
+}
+
+/* line 698, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.special-in {
+  margin: 0 2% 0 0;
+  padding: 0;
+  width: 23.5%;
+  float: left;
+}
+
+/* line 704, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.special-in:nth-child(4) {
+  margin: 0;
+}
+
+/*--single--*/
+/* line 708, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.single-men h5 {
+  font-size: 1.5em;
+  font-family: 'Lobster Two', cursive;
+  color: #aa381e;
+  padding: 0.5em 0;
+}
+
+/* line 714, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.single-men p {
+  font-size: 1.3em;
+  color: #848484;
+  line-height: 1.5em;
+}
+
+/* line 719, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.comment-list {
+  border: 1px solid #BAB6B6;
+  padding: 2em;
+  list-style: none;
+  margin: 3em 0;
+  list-style: none;
+}
+
+/* line 726, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.desc p {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  color: #848484;
+  margin-top: 1.5em;
+  display: inline-block;
+}
+
+/* line 733, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+h5.post-author_head {
+  line-height: 1.2em;
+  font-size: 1.5em;
+  text-transform: none;
+  color: #848484;
+  margin: 0 0 0.5em;
+}
+
+/* line 740, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+h5.post-author_head a {
+  color: #555;
+}
+
+/* line 743, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.comment-list img {
+  float: left;
+  width: 10%;
+  margin-right: 20px;
+}
+
+/* line 748, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.comments-area h3 {
+  font-size: 2em;
+  color: #aa381e;
+  margin-bottom: 0.5em;
+  font-family: 'Lobster Two', cursive;
+}
+
+/* line 754, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.comments-area p {
+  padding: 8px 0;
+  margin: 0;
+}
+
+/* line 758, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.web-in {
+  padding: 8px 0;
+}
+
+/* line 761, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.comments-area label {
+  display: block;
+  color: #999;
+  font-size: 1.2em;
+}
+
+/* line 766, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.comments-area input[type="text"] {
+  padding: 15px 20px;
+  width: 75%;
+  color: #999;
+  font-size: 13px;
+  background: none;
+  border: 1px solid #D1D1D1;
+  border-radius: 10px;
+  outline: none;
+  display: block;
+}
+
+/* line 777, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.comments-area textarea {
+  padding: 15px 30px;
+  width: 90%;
+  color: #999;
+  font-size: 13px;
+  outline: none;
+  height: 200px;
+  display: block;
+  background: none;
+  border: 1px solid #D1D1D1;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  resize: none;
+}
+
+/* line 794, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.copyrights {
+  text-indent: -9999px;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  overflow: hidden;
+}
+
+/* line 795, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.sub-in input[type="submit"] {
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  background: #35a22c;
+  color: #fff;
+  font-size: 1.3em;
+  width: 25%;
+  padding: 0.5em;
+  border: none;
+  font-family: 'Lobster Two', cursive;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  line-height: 1.2em;
+}
+
+/* line 817, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.sub-in input[type="submit"]:hover {
+  background: #aa381e;
+}
+
+/* line 820, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.single {
+  padding: 5em 0;
+}
+
+/*----*/
+/* line 824, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.store-right h6 {
+  margin: 0 0 0.5em;
+  font-size: 1.5em;
+  color: #aa381e;
+  font-family: 'Lobster Two', cursive;
+}
+
+/* line 830, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.store-men li {
+  list-style: none;
+  border-bottom: 1px solid #D3CFCF;
+}
+
+/* line 834, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.store-men li.last {
+  border: none;
+}
+
+/* line 837, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.store-men li a span {
+  height: 18px;
+  width: 18px;
+  background: url("/assets/img-sprite-28cb8ec5c5eeb5e4b59feb540858ed873223d87902e2d49d072d26d18a4c7f79.png") no-repeat -184px -22px;
+  display: inline-block;
+  margin: 0 0.5em 0 0;
+  vertical-align: sub;
+}
+
+/* line 845, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.store-men li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #848484;
+  font-weight: 600;
+  padding: 0.5em 0;
+  display: block;
+}
+
+/* line 853, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.store-men li a:hover {
+  color: #aa381e;
+  padding-left: 0.2em;
+}
+
+/* line 857, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.store-right {
+  padding: 0em 0 4em;
+}
+
+/* line 860, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.grid-product {
+  float: right;
+  width: 55%;
+}
+
+/* line 864, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+a.elit {
+  font-size: 1.2em;
+}
+
+/* line 867, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+a.elit:hover {
+  color: #aa381e;
+  border-bottom: 1px solid #aa381e;
+  text-decoration: none;
+}
+
+/* line 872, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+span.price-in {
+  font-size: 1.1em;
+}
+
+/* line 875, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+span.price-in small {
+  font-size: 15px;
+}
+
+/* line 878, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+span.price {
+  font-size: 1.4em;
+  padding: 0.5em  0;
+  display: block;
+  color: #848484;
+}
+
+/* line 884, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.fashion {
+  float: left;
+}
+
+/* line 887, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.product {
+  padding: 1em 0;
+}
+
+/*--404--*/
+/* line 891, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.four {
+  text-align: center;
+  padding: 8em 0 10em;
+  min-height: 521px;
+}
+
+/* line 896, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.four h2 {
+  font-size: 5em;
+  color: #aa381e;
+  font-family: 'Lobster Two', cursive;
+}
+
+/* line 901, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.four h3 {
+  font-size: 4em;
+  color: #000;
+  padding: 0.7em 0;
+}
+
+/*--checkout--*/
+/* line 907, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.register-account {
+  padding: 7em 0 8em;
+}
+
+/* line 910, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+h4.title {
+  color: #aa381e;
+  margin-bottom: 0.5em;
+  font-size: 1.6em;
+  line-height: 1.2em;
+  font-weight: normal;
+  margin-top: 0px;
+  border-bottom: 1px solid #DFDDDD;
+  padding-bottom: 13px;
+  font-family: 'Lobster Two', cursive;
+}
+
+/* line 921, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+p.cart {
+  color: #777;
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+/* line 926, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+p.cart a {
+  text-decoration: underline;
+  color: #000;
+}
+
+/* line 930, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+p.cart a:hover {
+  text-decoration: none;
+}
+
+/*--contact--*/
+/* line 934, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.contact-in h2 {
+  margin: 0.5em 0;
+  font-size: 4em;
+  color: #aa381e;
+  text-align: center;
+  font-family: 'Lobster Two', cursive;
+}
+
+/* line 941, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.contact-right h5 {
+  color: #aa381e;
+  margin-bottom: 0.5em;
+  font-size: 1.7em;
+  margin-top: 0px;
+  font-family: 'Lobster Two', cursive;
+}
+
+/* line 948, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.contact-left input[type="text"], .contact-left textarea {
+  padding: 14px;
+  display: block;
+  width: 98%;
+  background: none;
+  border: 1px solid #D1D1D1;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  outline: none;
+  color: #464646;
+  font-size: 1em;
+}
+
+/* line 963, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.contact-left textarea {
+  resize: none;
+  height: 100px;
+}
+
+/* line 967, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.contact-left input[type="submit"] {
+  outline: none;
+  padding: 7px 20px;
+  color: #FFF;
+  cursor: pointer;
+  background: #35a22c;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  margin: 0.5em 0;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  font-family: 'Lobster Two', cursive;
+}
+
+/* line 987, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.contact-left input[type="submit"]:hover {
+  background-color: #aa381e;
+}
+
+/* line 990, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.contact-right p {
+  font-size: 1.3em;
+  color: #333;
+  line-height: 1.8em;
+}
+
+/* line 995, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.contact-right p a {
+  text-decoration: underline;
+  color: #333;
+  cursor: pointer;
+}
+
+/* line 1000, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.contact-right p a:hover {
+  text-decoration: none;
+}
+
+/* line 1003, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.map iframe {
+  border: 0;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 175px;
+}
+
+/* line 1009, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.contact-left span {
+  font-size: 1.3em;
+  display: block;
+  padding: 0.5em 0;
+}
+
+/* line 1014, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.contact-in {
+  padding: 0em 0 3em;
+}
+
+/* line 1017, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.contact {
+  padding: 2em 0 3em;
+}
+
+/* line 1020, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.contact-left {
+  padding: 0 2em 0 0;
+}
+
+/* line 1023, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.contact-right {
+  padding: 0;
+}
+
+/* line 1026, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.map {
+  padding: 0 2em 0 0;
+}
+
+/*----*/
+/* line 1030, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.account h2 {
+  padding: 0.5em 0;
+  font-size: 4em;
+  color: #aa381e;
+  text-align: center;
+  font-family: 'Lobster Two', cursive;
+}
+
+/* line 1037, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.account span {
+  font-size: 1.3em;
+  padding-right: 1.85em;
+}
+
+/* line 1041, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+span.name-in {
+  padding-right: 2em;
+}
+
+/* line 1044, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+span.mail {
+  padding-right: 3.8em;
+}
+
+/* line 1047, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+span.word {
+  padding-right: 2.2em;
+}
+
+/* line 1050, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+span.word-in {
+  padding-right: 2.6em;
+}
+
+/* line 1053, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.account div {
+  padding: 1em 0;
+}
+
+/* line 1056, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.account input[type="email"], .account textarea, .account input[type="password"], .account input[type="text"] {
+  padding: 14px;
+  width: 60%;
+  background: none;
+  border: 1px solid #D1D1D1;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  outline: none;
+  color: #464646;
+  font-size: 1em;
+}
+
+/* line 1070, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.styled-select select {
+  background: transparent;
+  width: 268px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 34px;
+  -webkit-appearance: none;
+}
+
+/* line 1081, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.account textarea {
+  resize: none;
+  height: 60px;
+}
+
+/* line 1085, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.account input[type="submit"] {
+  outline: none;
+  padding: 7px 20px;
+  color: #FFF;
+  cursor: pointer;
+  background: #35a22c;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  margin: 0.5em 7em;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.2em;
+  display: block;
+}
+
+/* line 1107, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.login input[type="submit"] {
+  margin: 0.5em 2em;
+}
+
+/* line 1110, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.account input[type="submit"]:hover {
+  background: #aa381e;
+}
+
+/* line 1113, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.account {
+  padding: 2em 0 4em;
+}
+
+/* line 1116, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+a.forgot {
+  color: #aa381e;
+  font-size: 1.2em;
+  margin: 0em 7em;
+}
+
+/*--footer--*/
+/* line 1123, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.footer {
+  background: url("/assets/footer-5d75f610590d38e1853b17daf12c6925fa49a9229061dbb2d1cc8ac97f13f8b9.png") no-repeat center;
+  width: 100%;
+  min-height: 250px;
+  display: block;
+  background-size: cover;
+  padding-top: 3em;
+}
+
+/* line 1131, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.footer h4 {
+  font-size: 2em;
+  font-family: 'Lobster Two', cursive;
+  color: #fff;
+}
+
+/* line 1136, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.footer-bottom p {
+  font-size: 1.4em;
+  color: #440f0a;
+  line-height: 1.5em;
+  width: 80%;
+  padding: 0.5em 0;
+}
+
+/* line 1143, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.footer-bottom p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 1147, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.footer-bottom p a:hover {
+  color: #440f0a;
+}
+
+/* line 1150, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.social-icons {
+  padding-top: 1em;
+}
+
+/* line 1153, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.social-icons li {
+  display: inline-block;
+}
+
+/* line 1156, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.social-icons li a span {
+  height: 48px;
+  width: 48px;
+  background: url("/assets/img-sprite-28cb8ec5c5eeb5e4b59feb540858ed873223d87902e2d49d072d26d18a4c7f79.png") -360px -13px;
+  display: inline-block;
+}
+
+/* line 1162, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.social-icons li a span:hover {
+  opacity: 0.5;
+}
+
+/* line 1165, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.social-icons li.tin a span {
+  background-position: -410px -13px;
+}
+
+/* line 1168, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+ul.social-icons li.linked a span {
+  background-position: -461px -13px;
+}
+
+/* line 1171, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+#toTop {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 25px;
+  right: 10px;
+  overflow: hidden;
+  width: 61px;
+  height: 52px;
+  border: none;
+  text-indent: 100%;
+  background: url("/assets/up-7d1214042c3a099f94ae07c4a4160c91efbe8bc756b50f21d80df5b4c0c76997.png") no-repeat 0px 0px;
+}
+
+/*--responsive media quries--*/
+@media (max-width: 1024px) {
+  /* line 1192, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  ul.popular-in li a {
+    font-size: 1em;
+  }
+
+  /* line 1195, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  span.dollar {
+    font-size: 1.7em;
+  }
+
+  /* line 1198, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .popular input[type="submit"] {
+    width: 33%;
+  }
+
+  /* line 1201, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .b-from-left {
+    min-height: 182px;
+  }
+
+  /* line 1204, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .b-animate img {
+    padding-top: 4.2em;
+  }
+
+  /* line 1207, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  ul.store-men li a {
+    font-size: 1.1em;
+  }
+
+  /* line 1210, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  span.price {
+    padding: 0.2em 0em;
+  }
+
+  /* line 1213, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .grid-product {
+    width: 47%;
+  }
+}
+@media (max-width: 768px) {
+  /* line 1218, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  a.done:before {
+    margin-right: 0.3em;
+  }
+
+  /* line 1221, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  a.done:after {
+    margin: 0 0 0 0.3em;
+  }
+
+  /* line 1224, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header-grid li a, .grid-header li a {
+    font-size: 1.2em;
+  }
+
+  /* line 1227, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-in {
+    min-height: 250px;
+  }
+
+  /* line 1230, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-wrap h2 {
+    font-size: 3.3em;
+  }
+
+  /* line 1233, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-wrap h5 {
+    font-size: 2.5em;
+  }
+
+  /* line 1236, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-wrap {
+    padding: 1.5em 3em 4em 0;
+  }
+
+  /* line 1239, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .search {
+    width: 32%;
+  }
+
+  /* line 1242, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .phone {
+    padding: 1.5em 0;
+  }
+
+  /* line 1245, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  ul.popular-in li a {
+    font-size: 1.3em;
+  }
+
+  /* line 1248, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .egg {
+    width: 52%;
+    margin: 0 auto;
+  }
+
+  /* line 1252, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .popular input[type="submit"] {
+    width: 16%;
+  }
+
+  /* line 1255, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .popular input[type="text"] {
+    width: 55%;
+  }
+
+  /* line 1258, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .bottom-special {
+    width: 100%;
+    margin: 0 0 2em;
+  }
+
+  /* line 1262, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .bottom-special-1 {
+    width: 100%;
+  }
+
+  /* line 1265, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .special-in h5 {
+    font-size: 1.3em;
+  }
+
+  /* line 1268, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .b-animate img {
+    padding-top: 3.2em;
+  }
+
+  /* line 1271, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .grid-product {
+    width: 82%;
+  }
+
+  /* line 1274, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .single-top {
+    padding: 0;
+  }
+
+  /* line 1277, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .single-bottom {
+    padding: 2em 0 0;
+  }
+
+  /* line 1280, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .single {
+    padding: 3em 0 2em;
+  }
+
+  /* line 1283, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner {
+    padding: 1em;
+  }
+
+  /* line 1286, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  ul.popular-in {
+    padding-top: 1em;
+  }
+
+  /* line 1289, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .cup-in {
+    padding: 1em;
+    margin-right: 2%;
+    width: 32%;
+  }
+
+  /* line 1294, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .amet-in {
+    padding: 0;
+  }
+
+  /* line 1297, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header {
+    min-height: 615px;
+  }
+
+  /* line 1300, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .footer-bottom {
+    padding: 0;
+  }
+
+  /* line 1303, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .top-nav {
+    margin-top: 4px;
+  }
+
+  /* line 1306, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .map {
+    padding: 0 0;
+  }
+}
+@media (max-width: 640px) {
+  /* line 1311, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  a.done {
+    font-size: 1.1em;
+  }
+
+  /* line 1314, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header-grid li a, .grid-header li a {
+    font-size: 1em;
+  }
+
+  /* line 1317, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header-grid, .grid-header {
+    padding-top: 0.6em;
+  }
+
+  /* line 1320, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-wrap h2 {
+    font-size: 2.5em;
+  }
+
+  /* line 1323, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-wrap h5 {
+    font-size: 1.8em;
+  }
+
+  /* line 1326, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .special-in {
+    margin: 0 3% 0 0;
+    width: 48.5%;
+  }
+
+  /* line 1330, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .special-in:nth-child(2) {
+    margin: 0;
+  }
+
+  /* line 1333, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .b-from-left {
+    min-height: 235px;
+  }
+
+  /* line 1336, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .b-animate img {
+    padding-top: 6.2em;
+  }
+
+  /* line 1339, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .sub-in input[type="submit"] {
+    width: 31%;
+  }
+
+  /* line 1342, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header {
+    min-height: 600px;
+  }
+
+  /* line 1345, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-in {
+    min-height: 200px;
+  }
+
+  /* line 1348, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header {
+    min-height: 560px;
+  }
+
+  /* line 1351, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-wrap {
+    padding: 1.5em 2em 3em 0;
+  }
+
+  /* line 1354, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .wmuSliderPrev {
+    right: 2em;
+  }
+
+  /* line 1357, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .wmuSliderNext {
+    right: 5em;
+  }
+
+  /* line 1361, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .contact {
+    padding: 1em 0 3em;
+  }
+
+  /* line 1364, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .specials {
+    padding: 2em 0 4em;
+  }
+
+  /* line 1367, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .single {
+    padding: 2em 0 0em;
+  }
+
+  /* line 1370, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .four {
+    padding: 6em 0 8em;
+    min-height: 420px;
+  }
+
+  /* line 1374, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .account {
+    padding: 1em 0 4em;
+  }
+
+  /* line 1377, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .register-account {
+    padding: 4em 0 5em;
+  }
+
+  /* line 1380, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .search {
+    width: 38%;
+  }
+
+  /* line 1383, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .four h2 {
+    font-size: 3.5em;
+  }
+
+  /* line 1386, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .content-grid {
+    padding-bottom: 3em;
+  }
+
+  /* line 1389, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  ul.comment-list img {
+    width: 15%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 1394, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header-top-in {
+    width: 34%;
+  }
+
+  /* line 1397, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .act {
+    display: none;
+  }
+
+  /* line 1400, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header-grid li a, .grid-header li a {
+    font-size: 1.3em;
+  }
+
+  /* line 1403, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .cup-in, .cup-in:nth-child(3) {
+    margin-right: 2%;
+    width: 48%;
+  }
+
+  /* line 1407, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .cup-in:nth-child(2), .cup-in:nth-child(4) {
+    margin-right: 0;
+  }
+
+  /* line 1410, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  p.vit {
+    font-size: 1.2em;
+  }
+
+  /* line 1413, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .grid-product {
+    width: 70%;
+  }
+
+  /* line 1416, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .b-animate img {
+    padding-top: 3.8em;
+  }
+
+  /* line 1419, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .bottom-special h5, .bottom-special-1 h5 {
+    font-size: 1.8em;
+  }
+
+  /* line 1422, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .sub-in input[type="submit"] {
+    width: 36%;
+    font-size: 1.1em;
+  }
+
+  /* line 1426, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-in {
+    min-height: 170px;
+  }
+
+  /* line 1429, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-wrap h2 {
+    font-size: 2em;
+  }
+
+  /* line 1432, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-wrap h5 {
+    font-size: 1.5em;
+  }
+
+  /* line 1435, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-wrap p {
+    font-size: 1.2em;
+  }
+
+  /* line 1438, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-wrap {
+    padding: 1em 1.5em 3em 0;
+  }
+
+  /* line 1441, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .wmuSliderPrev {
+    right: 1em;
+  }
+
+  /* line 1444, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .wmuSliderNext {
+    right: 4em;
+  }
+
+  /* line 1447, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header {
+    min-height: 520px;
+  }
+
+  /* line 1450, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header-top {
+    padding-top: 1em;
+  }
+
+  /* line 1453, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .logo {
+    padding-top: 2em;
+  }
+
+  /* line 1456, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header-in {
+    min-height: 255px;
+  }
+
+  /* line 1459, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .search {
+    width: 51%;
+  }
+
+  /* line 1462, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .contact-in h2, .account h2, .specials h2 {
+    font-size: 3em;
+  }
+
+  /* line 1465, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .four h2 {
+    font-size: 3em;
+  }
+
+  /* line 1468, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .four h3 {
+    font-size: 3em;
+    padding: 0.5em 0;
+  }
+
+  /* line 1472, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .four {
+    padding: 4em 0 6em;
+    min-height: 303px;
+  }
+
+  /* line 1476, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header {
+    min-height: 486px;
+  }
+
+  /* line 1479, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .popular input[type="submit"] {
+    width: 24%;
+  }
+
+  /* line 1482, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  a.more {
+    font-size: 1.4em;
+  }
+
+  /* line 1485, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .egg {
+    width: 80%;
+  }
+
+  /* line 1488, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .contact, .store-right {
+    padding: 0em 0 3em;
+  }
+
+  /* line 1491, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .specials {
+    padding: 1em 0 3em;
+  }
+
+  /* line 1494, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .single-men p {
+    height: 100px;
+    overflow: hidden;
+  }
+
+  /* line 1498, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  ul.comment-list img {
+    width: 18%;
+  }
+
+  /* line 1501, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .desc p {
+    margin-top: 1em;
+  }
+}
+@media (max-width: 320px) {
+  /* line 1506, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .grid-header li:nth-child(1), .grid-header li:nth-child(2) {
+    display: none;
+  }
+
+  /* line 1509, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header-top-in {
+    width: 58%;
+  }
+
+  /* line 1512, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header-top {
+    padding-top: 0.5em;
+  }
+
+  /* line 1515, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .search input[type="text"] {
+    font-size: 1em;
+    padding: 8px 15px;
+  }
+
+  /* line 1519, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .search {
+    width: 70%;
+  }
+
+  /* line 1522, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header-bottom {
+    padding: 0.8em;
+    margin: 1em 0 0;
+  }
+
+  /* line 1526, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .top-nav {
+    margin-top: 0.3em;
+  }
+
+  /* line 1529, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner {
+    padding: 0.8em;
+  }
+
+  /* line 1532, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-in {
+    min-height: 120px;
+  }
+
+  /* line 1535, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-wrap h2 {
+    font-size: 1.5em;
+  }
+
+  /* line 1538, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-wrap h5 {
+    font-size: 1.2em;
+  }
+
+  /* line 1541, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-wrap p {
+    display: none;
+  }
+
+  /* line 1544, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .banner-wrap {
+    padding: 1.3em 1em 3.3em 0;
+  }
+
+  /* line 1547, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header {
+    min-height: 375px;
+  }
+
+  /* line 1550, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .logo {
+    padding-top: 1em;
+  }
+
+  /* line 1553, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .popular h3, .amet h3, .amet-in h3, .footer h4 {
+    font-size: 1.5em;
+  }
+
+  /* line 1556, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .popular p, .amet p, .amet-in p {
+    font-size: 1.2em;
+  }
+
+  /* line 1559, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  ul.popular-in li a {
+    font-size: 1em;
+  }
+
+  /* line 1562, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  ul.popular-in {
+    padding-top: 0em;
+  }
+
+  /* line 1565, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  ul.number li span {
+    padding: 0.2em 0;
+    font-size: 1.4em;
+  }
+
+  /* line 1569, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  ul.number {
+    padding-top: 1em;
+  }
+
+  /* line 1572, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .popular input[type="text"] {
+    width: 79%;
+  }
+
+  /* line 1575, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .popular input[type="submit"] {
+    width: 36%;
+  }
+
+  /* line 1578, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .popular input[type="submit"] {
+    padding: 0.3em 0.8em;
+  }
+
+  /* line 1581, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .cup-in {
+    padding: 0.7em;
+    margin-bottom: 1em;
+  }
+
+  /* line 1585, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .cup-in p {
+    font-size: 1em;
+  }
+
+  /* line 1588, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  a.details {
+    font-size: 1.1em;
+  }
+
+  /* line 1591, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  span.dollar {
+    font-size: 1em;
+  }
+
+  /* line 1594, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .details-in {
+    margin-top: 0;
+  }
+
+  /* line 1597, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  p.vit {
+    font-size: 1em;
+    width: 65%;
+    padding: 0.5em 1em;
+  }
+
+  /* line 1602, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  p.vit span {
+    display: none;
+  }
+
+  /* line 1605, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  a.more {
+    width: 35%;
+    font-size: 1em;
+  }
+
+  /* line 1609, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  p.sed {
+    font-size: 1em;
+  }
+
+  /* line 1612, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .content-grid {
+    padding-bottom: 1em;
+  }
+
+  /* line 1615, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .footer-bottom p {
+    font-size: 1.2em;
+    line-height: 1.3em;
+    width: 90%;
+    padding: 0.3em 0;
+  }
+
+  /* line 1621, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .arrow {
+    right: 30%;
+  }
+
+  /* line 1624, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .browse {
+    padding: 1em 0 1.3em;
+  }
+
+  /* line 1627, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .footer {
+    padding-top: 1em;
+  }
+
+  /* line 1630, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .contact-in h2, .account h2, .specials h2 {
+    font-size: 2em;
+  }
+
+  /* line 1633, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .header-in {
+    min-height: 209px;
+  }
+
+  /* line 1636, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .account h2, .contact-in h2 {
+    padding: 0.2em 0;
+  }
+
+  /* line 1639, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .account input[type="email"], .account textarea, .account input[type="password"] {
+    padding: 9px;
+    width: 70%;
+  }
+
+  /* line 1644, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .account div {
+    padding: 1em 0 0;
+  }
+
+  /* line 1647, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .account span, span.name-in, span.mail, span.word {
+    padding-right: 0;
+  }
+
+  /* line 1650, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .account input[type="submit"] {
+    margin: 0.5em 0;
+  }
+
+  /* line 1653, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .account, .contact, .store-right {
+    padding: 0em 0 1.5em;
+  }
+
+  /* line 1656, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  a.forgot {
+    margin: 0.3em 0 0 0;
+    display: block;
+  }
+
+  /* line 1660, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .register-account {
+    padding: 2em 0 3em;
+  }
+
+  /* line 1663, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .contact-left input[type="text"], .contact-left textarea {
+    padding: 10px;
+  }
+
+  /* line 1666, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .contact-in {
+    padding: 0em 0 1em;
+  }
+
+  /* line 1669, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .four h2 {
+    font-size: 2em;
+  }
+
+  /* line 1672, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .four h3 {
+    font-size: 2em;
+  }
+
+  /* line 1675, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .four {
+    padding: 2em 0 4em;
+    min-height: 198px;
+  }
+
+  /* line 1679, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .b-animate img {
+    padding-top: 1.8em;
+  }
+
+  /* line 1682, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .special-in h5 {
+    font-size: 1.1em;
+  }
+
+  /* line 1685, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .bottom-special h5, .bottom-special-1 h5 {
+    font-size: 1.3em;
+  }
+
+  /* line 1688, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .bottom-special p, .bottom-special-1 p {
+    font-size: 1em;
+    height: 33px;
+    overflow: hidden;
+  }
+
+  /* line 1693, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .bottom-special {
+    margin: 0 0 1em;
+    padding: 3em 1em;
+  }
+
+  /* line 1697, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .specials h2 {
+    padding-bottom: 0.2em;
+  }
+
+  /* line 1700, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .specials {
+    padding: 1em 0 2em;
+  }
+
+  /* line 1703, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .single-men p {
+    height: 81px;
+    font-size: 1.2em;
+    line-height: 1.3em;
+  }
+
+  /* line 1708, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  ul.comment-list {
+    padding: 1em;
+    margin: 2em 0;
+  }
+
+  /* line 1712, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .desc p {
+    margin-top: 0.5em;
+  }
+
+  /* line 1715, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .comments-area h3 {
+    font-size: 1.5em;
+  }
+
+  /* line 1718, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .comments-area input[type="text"] {
+    padding: 10px 20px;
+    width: 80%;
+  }
+
+  /* line 1722, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .comments-area textarea {
+    height: 120px;
+  }
+
+  /* line 1725, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .sub-in input[type="submit"] {
+    width: 51%;
+    font-size: 1em;
+  }
+
+  /* line 1729, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .grid-product {
+    width: 55%;
+  }
+
+  /* line 1732, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .product {
+    padding: 1em 0 0;
+  }
+
+  /* line 1735, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .single {
+    padding: 1em 0 0em;
+  }
+
+  /* line 1738, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+  .single-men h5 {
+    font-size: 1.3em;
+  }
+}
+/* line 1742, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.pagination {
+  padding: 3px;
+  margin: 3px;
+}
+
+/* line 1746, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.pagination a {
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  border: 1px solid #aaaadd;
+  text-decoration: none;
+  color: #000099;
+}
+
+/* line 1752, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+’
+.pagination a:hover, .pagination a:active {
+  border: 1px solid #000099;
+  color: #000;
+}
+
+/* line 1757, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.pagination span.current {
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  border: 1px solid #000099;
+  font-weight: bold;
+  background-color: #000099;
+  color: #FFF;
+}
+
+/* line 1765, /Users/frankguo/Desktop/ass1/app/assets/stylesheets/style.scss */
+.pagination span.disabled {
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  border: 1px solid #eee;
+  color: #ddd;
+}

@@ -1,0 +1,28 @@
+<h1>Store#index</h1>
+<% if session[:user_id]!=nil%>
+<%= button_to 'Logout', logout_path, method: :delete   %>
+<div>
+<%= link_to 'Watch My information', edit_user_path(session[:user_id])%>
+</div>
+<% end %>
+<% if session[:user_id]==nil%>
+<%= link_to 'Login', sessions_path, method: :new%>
+<% end %>
+<%= link_to 'My cart', cart_path(session[:cart_id])%>
+
+
+<% if notice %>
+<p id="notice"><%= notice %></p>
+<% end %>
+
+<div>
+	<%= form_tag(search_products_path, method: "get", id: "search") do %>
+	<fieldset>
+	<%= text_field_tag(:query, '', autocomplete: 'off') %>
+	<%= submit_tag("Search") %>
+	</fieldset>
+	<% end %>
+</div>
+<div id='main-input-area'>
+      <%=  render partial: 'products_list', object: @products %>
+    </div>
