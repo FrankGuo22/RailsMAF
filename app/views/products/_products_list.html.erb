@@ -1,0 +1,19 @@
+<% if @productpage.length > 0 %>
+
+	<% @productpage.each do |product| %>
+	
+		<div class="col-md-4 cup-in">
+			<%= image_tag(product.image_url) %>
+			<p><%= link_to "#{product.title}", product_path(product.id)%></p>
+			<span class="dollar"><%= number_to_currency(product.price) %></span>
+			<div class="details-in">
+				
+				<%= link_to "Details", product_path(product.id), class: "details" %>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+
+	<% end %>
+	
+	
+	<% end %>
