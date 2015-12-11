@@ -9,3 +9,5 @@ bundle install
 Heroku
 
 https://myalcoholfree-gzwnpu.herokuapp.com/
+
+be kind to my website..
