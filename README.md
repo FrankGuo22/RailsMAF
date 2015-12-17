@@ -4,7 +4,7 @@ A e-commerce website which can be useful for newbie ROR.
 
 USAGE
 
-bundle install
+bundle installl
 
 Heroku
 
